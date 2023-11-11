@@ -1,0 +1,78 @@
+/************************************************/
+/*        hoja de estilo de brownie.html        */
+/*        autor: Jonathan García Conesa         */
+/*        version: 1.0                          */
+/*        fecha: octubre de 2023                */
+/*        comentario: trabajo de lenguaje de m  */
+/************************************************/
+
+@font-face{
+    font-family: titulo;
+    src: url(../fonts/Mesonina-Regular.otf);
+}
+
+@font-face {
+    font-family: textonormal;
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+* {box-sizing: border-box;}
+
+body {background-image: url(../img/MP032.jpg);
+background-size: 50%;
+margin: 0;padding: 0;    
+font-size: 1.2em;
+font-family: textonormal;
+} 
+#wrapper {width: 80%;
+    margin: auto;
+    padding: 1.5%;
+    background-color: white;}
+
+    blockquote {font-style: italic;
+        border-left:4px solid purple;
+        background-color: rgb(221, 196, 244);
+        padding:20px;}
+
+    #persona {text-align: right;}
+
+        img{float: right;
+            height: 25vh;        
+            background-position: center;
+            position:relative;     
+}
+        
+
+        dt {font-weight: bold;
+            font-variant: small-caps;
+            text-decoration: underline overline;
+            color:crimson}
+        
+
+h1 {
+    font-family: titulo;
+}
+
+h2{
+    font-family: titulo;
+    padding-top: 15px;
+}
+
+li{
+padding-top: 10px;
+}
+
+dt{
+    padding-top: 10px;
+}
+
+/***************RESPONSIVIDAD****************/
+
+@media only screen and (min-width: 700px) {
+
+    img { height: 25vh;       
+        background-size: auto;
+        background-position: center;
+        position:relative;
+    }
+}
