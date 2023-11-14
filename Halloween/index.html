@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halloween</title>
+    <link rel="stylesheet" href="./css/halloween.css">
+    <link rel="shortcut icon" href="./img/ghost-icon.png" type="image/x-icon">
+    <script src="./js/halloween.js"></script>
+</head>
+<body>
+    <div id="scenario">
+        <button onclick="show('')">Start</button>
+        <!-- we´r going to fix an specific area for an event, for example the moon-->
+        <div id="moon" onmouseover="show('witch')" onmouseout="hide('witch')">
+            <!-- nothing inside -->
+        </div>
+        <div id="pumpkin">
+            <!-- nothing inside -->
+        </div>
+        <img id= "gost"      src="./img/200w.gif" alt="">
+        <div id="window" onmouseover="show('gost')" onmouseout="hide('gost')"> <!--onmouseover="show('');sound('witchsound')"  onmouseout="hide('zombie');silence('witchsound')"> -->
+            <!-- nothing inside -->
+        </div>
+        <div id="eyes">
+            <!-- nothing inside -->
+        </div>
+        <audio id="witchsound">
+            <source src="./sound/witch-103635.mp3" type="audio/mp3">
+        </audio>
+        
+    </div>
+    <div class="texto">
+        Para entrar en la fiesta de la casa embrujada pulsa en la puerta
+    </div>
+</body>
+</html>
