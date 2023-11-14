@@ -1,0 +1,64 @@
+body {background-color: black;}
+
+#scenario {width:1500px;
+            height:938px;
+            background-image: url(../img/abandoned-haunted-house-refuge-of-spirits-moonlit-royalty-free-image-1633983690.jpg);
+            margin: auto;
+            position: relative;}
+#scenario button {background-color:#FFFFFF;
+                color: black;
+                font-weight: bold;
+                padding: 5px 10px;
+                border: none;
+                border-radius: 10px;
+                position:absolute;
+                top:60% ;
+                left:47% ;
+                transform: translate(-50%,-50%);
+}
+.texto {
+    color: #FFFFFF;
+}
+
+#moon {width: 320px;
+        height: 320px;
+        /*border: 2px solid purple;*/
+        position: absolute;
+        top: 100px;
+        left: 305px;
+        }
+#pumpkin {width: 150px;
+        height: 150px;
+        /*border: 2px solid orange;*/
+        position: absolute;
+        top: 720px;
+        left: 100px;
+        }
+#window {width: 70px;
+        height: 70px;
+        /*border: 2px solid red;*/
+        position: absolute;
+        top: 370px;
+        left: 670px;
+        }
+#gost {
+    position: absolute;
+        top: 370px;
+        left: 670px;
+        width: 200px;
+        visibility:hidden;
+}
+#eyes {width: 70px;
+        height: 70px;
+        /*border: 2px solid greenyellow;*/
+        position: absolute;
+        top: 570px;
+        left: 440px;
+        }
+#zombie {position: absolute;
+        top: 500px;
+        left: 700px;
+        width: 200px;
+        /*display: none;}*/ /* de primeras el zombie no se ve */
+        visibility:hidden;
+}
