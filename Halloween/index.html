@@ -10,28 +10,30 @@
 </head>
 <body>
     <div id="scenario">
-        <button onclick="show('')">Start</button>
-        <!-- we´r going to fix an specific area for an event, for example the moon-->
-        <div id="moon" onmouseover="show('witch')" onmouseout="hide('witch')">
-            <!-- nothing inside -->
+        <img id="bats" src="./img/f7e84e8edf6ae0f70c0f594161d1e047.gif" alt="">
+        <div id="moon" onmouseover="show('bats');sound('risa')" onmouseout="hide('bats');silence('risa')">
         </div>
-        <div id="pumpkin">
-            <!-- nothing inside -->
+        <img id="scary" src="./img/scary-halloween.gif" alt="">
+        <div id="door" onclick="show('scary');sound('monstruo')" onmouseout="hide('scary');silence('monstruo')">
         </div>
         <img id= "gost"      src="./img/200w.gif" alt="">
-        <div id="window" onmouseover="show('gost')" onmouseout="hide('gost')"> <!--onmouseover="show('');sound('witchsound')"  onmouseout="hide('zombie');silence('witchsound')"> -->
-            <!-- nothing inside -->
+        <div id="window" onmouseover="show('gost');sound('presencia')" onmouseout="hide('gost');silence('presencia')">
         </div>
-        <div id="eyes">
-            <!-- nothing inside -->
-        </div>
-        <audio id="witchsound">
-            <source src="./sound/witch-103635.mp3" type="audio/mp3">
+        <audio id="monstruo">
+            <source src="./sounds/008570002_prev.mp3" type="audio/mp3">
+        </audio>
+        <audio src="risa">
+            <source src="./sounds/008621579_prev.mp3" type="audio/mp3">
+        </audio>
+        <audio src="presencia">
+            <source src="./sounds/000770815_prev.mp3" type="audio/mp3">
         </audio>
         
     </div>
     <div class="texto">
-        Para entrar en la fiesta de la casa embrujada pulsa en la puerta
+        <p>The moon is beutiful this day </p>
+        <p>Is something in the bigguest window</p>
+        <p>To join the party click the door</p>
     </div>
 </body>
 </html>
